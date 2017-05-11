@@ -10,35 +10,36 @@
         android:id="@+id/inputText"
         android:layout_width="307dp"
         android:layout_height="39dp"
-        android:hint="Type something"
+        android:hint="Type something.."
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintHorizontal_bias="0.506" />
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintVertical_bias="0.23" />
 
     <TextView
         android:id="@+id/inputView"
         android:layout_width="170dp"
         android:layout_height="41dp"
-        android:text="TextView"
+        android:text="Assignment 1"
         android:textAlignment="center"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.329" />
+        app:layout_constraintVertical_bias="0.114" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:text="Click me!"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.673" />
+        app:layout_constraintVertical_bias="0.347" />
 
 </android.support.constraint.ConstraintLayout>
